@@ -1,12 +1,15 @@
-# _{Application Name}_
+# Beep Boop
 
-#### _{Brief description of application}, {Date of current version}_
+#### Week Three Project, 06.14.2019
 
-#### By _**{List of contributors}**_
+#### By Gavin Kimberlin
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+A website that takes an input from the user and then displays a range of numbers from 0 to number that was typed. It then replaces every number with a 1 to Beep, every number with a 2 to Boop, and every number with a 3 to I'm sorry Dave. I'm afraid I can't do that.
+# Specs
+
+
 
 ## Setup/Installation Requirements
 
