@@ -4,6 +4,7 @@ $(document).ready(function () {
     var input = parseInt($('#userInput').val());
     var intoNumber1 = parseInt(input);
     var ans = [];
+
     function range() {
       for (var i = 0; i <= intoNumber1; i++) {
         ans.push(i);
