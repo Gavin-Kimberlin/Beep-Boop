@@ -23,9 +23,12 @@ $(document).ready(function () {
           splitNumsArray.push(toNumbers2);
           console.log(splitNumsArray);
           if (splitNumsArray[k] === 3) {
-            ans.splice(j, 1, 'I\'m sorry, Dave. I\'m afraid I can\'t do that.')
-          }else if (splitNumsArray[k] === 2)
+            ans.splice(j, 1, 'I\'m sorry, Dave. I\'m afraid I can\'t do that.');
+          }else if (splitNumsArray[k] === 2) {
             ans.splice(j, 1, 'Boop');
+          }else if (splitNumsArray[k] === 1) {
+            ans.splice(j, 1, 'Beep');
+          };
         };
       };
     };
