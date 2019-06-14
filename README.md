@@ -27,7 +27,7 @@ The program replaces any number that contains a 1 with "Beep"
 
 ## Setup/Installation Requirements
 
-* Copy link to GitHub Pages into browser of choice
+* Copy link https://gavin-kimberlin.github.io/Beep-Boop/ to GitHub Pages into browser of choice
 * Type in a number
 * Hit submit
 
