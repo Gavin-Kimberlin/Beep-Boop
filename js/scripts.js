@@ -36,5 +36,7 @@ $(document).ready(function () {
     range();
     beep();
     console.log(ans);
+    ans.join(',');
+    ($('h4.output')).append(ans);
   });
 });
