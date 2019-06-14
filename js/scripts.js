@@ -24,13 +24,14 @@ $(document).ready(function () {
           console.log(splitNumsArray);
           if (splitNumsArray[k] === 3) {
             ans.splice(j, 1, 'I\'m sorry, Dave. I\'m afraid I can\'t do that.')
-            console.log(ans);
-          };
+          }else if (splitNumsArray[k] === 2)
+            ans.splice(j, 1, 'Boop');
         };
       };
     };
 
     range();
     beep();
+    console.log(ans);
   });
 });
