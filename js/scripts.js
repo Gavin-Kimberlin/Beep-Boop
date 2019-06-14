@@ -7,7 +7,6 @@ $(document).ready(function () {
     function range() {
       for (var i = 0; i <= intoNumber1; i++) {
         ans.push(i);
-        console.log(ans);
       }
     };
 
@@ -15,20 +14,17 @@ $(document).ready(function () {
     function beep() {
       for (var j = 0; j < ans.length; j++) {
         var split = (ans[j].toString()).split('');
-        console.log(split);
         var splitNumsArray = [];
         for (var k = 0; k < split.length; k++) {
           var toNumbers2 = parseInt(split[k]);
-          console.log(toNumbers2);
           splitNumsArray.push(toNumbers2);
-          console.log(splitNumsArray);
           if (splitNumsArray[k] === 3) {
             ans.splice(j, 1, 'I\'m sorry, Dave. I\'m afraid I can\'t do that.');
           }else if (splitNumsArray[k] === 2) {
             ans.splice(j, 1, 'Boop');
           }else if (splitNumsArray[k] === 1) {
             ans.splice(j, 1, 'Beep');
-          };
+          }
         };
       };
     };
@@ -36,7 +32,6 @@ $(document).ready(function () {
     range();
     beep();
     console.log(ans);
-    ans.join(',');
-    ($('h4.output')).append(ans);
+    ($('h4.output')).text(ans);
   });
 });
